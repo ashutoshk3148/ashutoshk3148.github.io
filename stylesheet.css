@@ -64,20 +64,20 @@ a:hover {
   margin-bottom: 8px;
 }
 
-.publication, .project {
+.certifications, .project {
   display: flex;
   align-items: center;
   margin: 20px 0;
 }
 
-.publication img, .project img {
+.certifications img, .project img {
   width: 120px;
   height: auto;
   border-radius: 5px;
   margin-right: 20px;
 }
 
-.publication div, .project div {
+.certifications div, .project div {
   flex: 1;
 }
 
@@ -151,12 +151,12 @@ a:hover {
 }
 
 @media screen and (max-width: 768px) {
-  .publication, .project {
+  .certifications, .project {
     flex-direction: column;
     text-align: center;
   }
 
-  .publication img, .project img {
+  .certifications img, .project img {
     margin-bottom: 10px;
   }
 
