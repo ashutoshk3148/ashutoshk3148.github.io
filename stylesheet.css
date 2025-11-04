@@ -302,11 +302,4 @@ a:hover {
   border-color: #444 !important;
 }
 
-/* Optional: change link color for contrast */
-.dark-mode a {
-  color: #ffcc00 !important;
-}
 
-.dark-mode a:hover {
-  color: #ff8800 !important;
-}
