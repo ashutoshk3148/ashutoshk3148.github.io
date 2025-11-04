@@ -280,4 +280,33 @@ a:hover {
   color: #ffffff !important;
 }
 
+/* Fix your name color (add highlight) */
+.dark-mode h1 {
+  color: #ffcc00 !important;
+}
 
+/* Fix white image boxes */
+.dark-mode img {
+  background-color: transparent !important;
+}
+
+/* Resume section background */
+.dark-mode #resume {
+  background-color: #222 !important;
+  border-top: 2px solid #444 !important;
+}
+
+/* Improve visibility of navbar in dark mode */
+.dark-mode .navbar {
+  background-color: #333 !important;
+  border-color: #444 !important;
+}
+
+/* Optional: change link color for contrast */
+.dark-mode a {
+  color: #ffcc00 !important;
+}
+
+.dark-mode a:hover {
+  color: #ff8800 !important;
+}
