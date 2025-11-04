@@ -227,12 +227,12 @@ a:hover {
   background-color: #c30505;
 }
 
-/* ===== CSS-only Dark Mode ===== */
+/* 
 #dark-toggle {
   display: none;
 }
 
-/* Toggle label */
+
 .toggle-label {
   display: inline-block;
   background: #ddd;
@@ -245,7 +245,7 @@ a:hover {
 }
 .toggle-label:hover { background: #ccc; }
 
-/* When checked, style the page elements that are siblings after the checkbox */
+
 #dark-toggle:checked ~ .main-container,
 #dark-toggle:checked ~ .navbar,
 #dark-toggle:checked ~ .section,
@@ -255,7 +255,7 @@ a:hover {
   color: #ffffff !important;
 }
 
-/* Links in dark mode */
+
 #dark-toggle:checked ~ .main-container a,
 #dark-toggle:checked ~ .navbar a,
 #dark-toggle:checked ~ .section a {
@@ -266,6 +266,4 @@ a:hover {
 #dark-toggle:checked ~ .section a:hover {
   color: #ff8800 !important;
 }
-
-/* Style the label when active */
-
+*/
