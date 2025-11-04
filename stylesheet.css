@@ -259,7 +259,7 @@ a:hover {
 #dark-toggle:checked ~ .main-container a,
 #dark-toggle:checked ~ .navbar a,
 #dark-toggle:checked ~ .section a {
-  color: #ffcc00 !important;
+  color: #6191f2 !important;
 }
 #dark-toggle:checked ~ .main-container a:hover,
 #dark-toggle:checked ~ .navbar a:hover,
