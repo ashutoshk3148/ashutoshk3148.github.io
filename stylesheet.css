@@ -317,54 +317,86 @@ body.dark-mode td {
 }
 
 /* =========================================
-   HEADER LAYOUT FIX (Prevents Overlap)
+   HEADER LAYOUT FIXED (Final Version)
    ========================================= */
+
 
 .header-container {
   display: flex;
-  align-items: center;     
-  justify-content: center;
-  gap: 60px;               
-  max-width: 1000px;
-  margin: 40px auto;
-  flex-wrap: wrap;          
+  flex-direction: row;     
+  align-items: center;      
+  justify-content: center;   
+  gap: 40px;                 
+  margin-top: 40px;
+  text-align: left;          
 }
 
 
 .profile-img-box img {
-  width: 320px;            
+  width: 280px;             
   height: auto;
   border-radius: 15px;
   object-fit: cover;
   display: block;
+}
+
 
 .profile-info-box {
-  flex: 1;                  
-  min-width: 300px;         
+  min-width: 250px;         
 }
 
 
 .main-name {
-  margin: 0;
-  font-size: 38px;
+  font-size: 36px;
   font-weight: 700;
+  margin: 0;
   line-height: 1.2;
 }
 
 .job-title {
   font-size: 16px;
-  font-weight: bold;
   color: #555;
   margin-top: 5px;
+  margin-bottom: 15px;
 }
+
+
+.header-socials {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 25px;
+}
+
+.header-socials a {
+  font-size: 28px;
+  color: #444;
+  transition: transform 0.2s;
+}
+
+.header-socials a:hover {
+  color: #1772d0;
+  transform: translateY(-3px);
+}
+
+
+.brand-text {
+  font-size: 42px;
+  font-weight: 800;
+  color: #c23737;
+  line-height: 1;
+}
+
+
+body.dark-mode .brand-text { color: #ff5555; }
+body.dark-mode .header-socials a { color: #ddd; }
+body.dark-mode .header-socials a:hover { color: #f09228; }
+
 
 @media screen and (max-width: 768px) {
   .header-container {
     flex-direction: column; 
     text-align: center;
-    gap: 20px;
   }
-  
   .header-socials {
     justify-content: center;
   }
