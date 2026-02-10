@@ -227,43 +227,30 @@ a:hover {
   background-color: #c30505;
 }
 
-/* 
-#dark-toggle {
-  display: none;
+/* Header Social Icons */
+.header-socials {
+  display: flex;
+  gap: 25px;              
+  margin-top: 15px;       
+  margin-bottom: 20px;
+}
+
+.header-socials a {
+  font-size: 32px;       
+  color: #444;            
+  transition: all 0.3s ease;
+  text-decoration: none;  
+}
+
+.header-socials a:hover {
+  color: #1772d0;         
+  transform: translateY(-3px); 
 }
 
 
-.toggle-label {
-  display: inline-block;
-  background: #ddd;
-  color: #000;
-  padding: 8px 14px;
-  border-radius: 20px;
-  cursor: pointer;
-  margin: 12px;
-  transition: background 0.2s;
+body.dark-mode .header-socials a {
+  color: #ddd;           
 }
-.toggle-label:hover { background: #ccc; }
-
-
-#dark-toggle:checked ~ .main-container,
-#dark-toggle:checked ~ .navbar,
-#dark-toggle:checked ~ .section,
-#dark-toggle:checked ~ .publication,
-#dark-toggle:checked ~ #resume {
-  background-color: #121212 !important;
-  color: #ffffff !important;
+body.dark-mode .header-socials a:hover {
+  color: #f09228;        
 }
-
-
-#dark-toggle:checked ~ .main-container a,
-#dark-toggle:checked ~ .navbar a,
-#dark-toggle:checked ~ .section a {
-  color: #6191f2 !important;
-}
-#dark-toggle:checked ~ .main-container a:hover,
-#dark-toggle:checked ~ .navbar a:hover,
-#dark-toggle:checked ~ .section a:hover {
-  color: #ff8800 !important;
-}
-*/
