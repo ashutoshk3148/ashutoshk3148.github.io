@@ -244,8 +244,7 @@ body.dark-mode img[alt="Brand Logo"] {
 
 /* DARK MODE OVERRIDE (This fixes the white box) */
 body.dark-mode #resume {
-  background-color: transparent !important; 
-  border-top-color: #444 !important;        
+  background-color: transparent !important;      
   color: #ffffff !important;              
 }
 
