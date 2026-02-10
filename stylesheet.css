@@ -137,17 +137,36 @@ a:hover {
   border-color: #444;
 }
 
+
 #dark-mode-toggle {
-  padding: 10px 15px;
-  font-size: 14px;
-  border: none;
-  background-color: #1772d0;
-  color: white;
+  position: fixed;       
+  top: 20px;
+  right: 20px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;    
+  background-color: #eee; 
+  color: #333;            
+  border: 1px solid #ccc;
+  font-size: 20px;
   cursor: pointer;
+  z-index: 1000;          
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #dark-mode-toggle:hover {
-  background-color: #f09228;
+  background-color: #1772d0; 
+  color: white;
+  transform: scale(1.1);
+}
+
+body.dark-mode #dark-mode-toggle {
+  background-color: #333;
+  color: #ffcc00; 
+  border-color: #555;
 }
 
 @media screen and (max-width: 768px) {
