@@ -209,12 +209,13 @@ body.dark-mode img[alt="Brand Logo"] {
   }
 }
 
-/* ===== Resume Section ===== */
+/* ===== Resume Section (Clean & Fixed) ===== */
 #resume {
   text-align: center;
   padding: 60px 0;
-  background-color: #ffffff;
-  border-top: 2px solid #ffffff;
+  background-color: #ffffff;      
+  border-top: 2px solid #f0f0f0;
+  transition: background-color 0.3s ease;
 }
 
 #resume h2 {
@@ -240,6 +241,13 @@ body.dark-mode img[alt="Brand Logo"] {
 
 .resume-btn:hover {
   background-color: #c30505;
+}
+
+/* DARK MODE OVERRIDE (This fixes the white box) */
+body.dark-mode #resume {
+  background-color: transparent !important; 
+  border-top-color: #444 !important;        
+  color: #ffffff !important;              
 }
 
 /* Header Social Icons */
@@ -403,14 +411,3 @@ body.dark-mode .header-socials a:hover { color: #f09228; }
 }
 
 
-body.dark-mode #resume {
-  background-color: transparent; 
-  border-top-color: #444;        
-  color: #ffffff;                
-}
-
-body.dark-mode #resume {
-  background-color: transparent !important; 
-  border-top-color: #444 !important;       
-  color: #ffffff !important;                
-}
