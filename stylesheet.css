@@ -409,3 +409,7 @@ body.dark-mode #resume {
   border-top: none !important;  
   color: #ffffff !important;
 }
+
+  body.dark-mode .brand-text {
+  color: #ff5555 !important; /* Forces it to stay bright Red */
+}
