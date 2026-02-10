@@ -408,3 +408,9 @@ body.dark-mode #resume {
   border-top-color: #444;        
   color: #ffffff;                
 }
+
+body.dark-mode #resume {
+  background-color: transparent !important; 
+  border-top-color: #444 !important;       
+  color: #ffffff !important;                
+}
