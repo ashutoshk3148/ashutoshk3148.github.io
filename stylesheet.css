@@ -287,3 +287,31 @@ body.dark-mode img[alt="Brand Logo"] {
   filter: invert(1) hue-rotate(180deg);
   mix-blend-mode: screen; 
 }
+
+
+.brand-text {
+  font-size: 48px;         
+  font-weight: 800;        
+  color: #c23737;          
+  line-height: 1.1;        
+  margin-top: 20px;
+  font-family: sans-serif;
+}
+
+.brand-text .divider {
+  font-weight: 300;        
+  color: #888;            
+}
+
+
+body.dark-mode .brand-text {
+  color: #ff5555;
+}
+
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode p,
+body.dark-mode td {
+  color: #ffffff !important;
+}
