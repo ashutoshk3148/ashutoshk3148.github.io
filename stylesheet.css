@@ -213,7 +213,8 @@ body.dark-mode img[alt="Brand Logo"] {
 #resume {
   text-align: center;
   padding: 60px 0;
-  background-color: #ffffff;      
+  background-color: #ffffff;
+  border-top: none;  
   transition: background-color 0.3s ease;
 }
 
@@ -402,10 +403,9 @@ body.dark-mode .header-socials a:hover { color: #f09228; }
   .header-container {
     flex-direction: column; 
     text-align: center;
-  }
-  .header-socials {
-    justify-content: center;
-  }
+
+body.dark-mode #resume {
+  background-color: transparent !important;
+  border-top: none !important;  
+  color: #ffffff !important;
 }
-
-
