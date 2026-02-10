@@ -401,3 +401,10 @@ body.dark-mode .header-socials a:hover { color: #f09228; }
     justify-content: center;
   }
 }
+
+
+body.dark-mode #resume {
+  background-color: transparent; 
+  border-top-color: #444;        
+  color: #ffffff;                
+}
