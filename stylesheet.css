@@ -124,8 +124,8 @@ a:hover {
   color: #ffffff;
 }
 
-.dark-mode a {
-  color: #ffcc00;
+.dark-mode .navbar a {
+  color: #1772d0;
 }
 
 .dark-mode a:hover {
