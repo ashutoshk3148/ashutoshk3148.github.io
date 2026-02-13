@@ -414,6 +414,6 @@ body.dark-mode .brand-text {
   color: #ff5555 !important;  
 }
     
-body.dark-mode .brand-text {
+body.dark-mode div.brand-text {
   color: #c23737 !important;
 }
